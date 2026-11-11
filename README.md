@@ -62,12 +62,6 @@ The platform combines AWS infrastructure, Kubernetes workloads, CI/CD automation
 9. Prometheus, Grafana, Alertmanager, and ECK provide monitoring, alerting, and logging.
 > Exact behavior depends on the configured workflow conditions, image update policy, Argo CD write-back method, and Kubernetes manifests.
  
-### Application Running Live
- 
-Traffic reaching the application through Route 53, ACM, and the ALB, confirming DNS, TLS, and routing work end to end.
- 
-![Application Running Live](docs/images/online-boutique-live.png)
- 
 ## Key Features
  
 ### Infrastructure as Code
