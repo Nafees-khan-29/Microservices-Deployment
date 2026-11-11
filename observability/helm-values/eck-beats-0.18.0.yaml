@@ -1,22 +1,4 @@
----
-# Default values for eck-beats.
-# This is a YAML-formatted file.
 
-# Overridable names of the Beats resource.
-# By default, this is the Release name set for the chart,
-# followed by 'eck-beats'.
-#
-# nameOverride will override the name of the Chart with the name set here,
-# so nameOverride: quickstart, would convert to '{{ Release.name }}-quickstart'
-#
-# nameOverride: "quickstart"
-#
-# fullnameOverride will override both the release name, and the chart name,
-# and will name the Beats resource exactly as specified.
-#
-# fullnameOverride: "quickstart"
-
-# Version of Elastic Beats.
 #
 version: 9.3.0
 
